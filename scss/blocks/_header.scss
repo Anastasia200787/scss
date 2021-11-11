@@ -1,0 +1,43 @@
+.header {
+  padding: 20px 0;
+}
+
+.menu {
+  display: flex;
+  padding-left: 30px;
+}
+
+.menu_list {
+  gap: 45px;
+}
+
+.menu_item {
+  font-family: "SFPro-Regular";
+}
+
+.menu_link {
+  display: block;
+  font-size: 16px;
+  color: $black-color;
+  text-decoration: none;
+  &:hover {
+    font-family: "SFPro-Bold";
+  }
+}
+
+.header_wrap {
+  width: 50%;
+  padding-right: 51px;
+}
+
+.header_logo {
+  transform: translate(-50%);
+}
+
+.favorite {
+  display: none;
+}
+
+.burger {
+  display: none;
+}

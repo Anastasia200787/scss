@@ -1,0 +1,51 @@
+.promo {
+  padding: 60px 0;
+}
+
+.promo_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo_content {
+  width: 40.5%;
+}
+
+.promo_img {
+  width: 50.5%;
+}
+
+.tagline {
+  font-size: 18px;
+  font-family: "SFPro-Bold";
+}
+
+.promo_title {
+  font-family: "SFPro-Bold";
+  font-size: 56px;
+  margin-top: 16px;
+}
+
+.promo_form {
+  margin-top: 52px;
+  display: flex;
+  input {
+    width: 321px;
+    height: 48px;
+    background: rgba(9, 19, 33, 0.0638304);
+    border: none;
+    padding: 0 14px;
+    outline: none;
+    &::placeholder {
+      font-size: 16px;
+      color: #c4c4c4;
+      padding-top: 4px;
+    }
+  }
+}
+
+.promo_text {
+  font-size: 14px;
+  margin-top: 20px;
+}
